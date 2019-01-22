@@ -1,0 +1,27 @@
+.list-items{
+    /* border: 1px solid black; */
+    margin: 20px;
+   
+}
+.item{
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.item button{
+    margin-left: 20px;
+}
+ .plus{
+    background: greenyellow;
+}
+.plus .type::before{
+    content: "+";
+}
+.minus{
+    background: rgb(255, 152, 152);;
+}
+.minus .type::before{
+    content: "-";
+}

@@ -1,0 +1,33 @@
+button{
+    border:none;
+    cursor: pointer;
+}
+.form{
+    margin: 20px 10px;
+    margin-right: 0;
+
+}
+.form input, .form button{
+    margin: 25px 0px;
+    margin-left: 10px;
+    height: 25px;
+    font-size: 20px;
+}
+.form button{
+    height: 30px;
+    width: 38px;
+}
+.nameEvent{
+   width:  50%;
+}
+.summaEvent{
+    width: 20%;
+}
+.inc{
+    background: rgb(140, 240, 140);
+    border: none;
+}
+.dec{
+    background: rgb(255, 197, 197);
+    border: none;
+}
